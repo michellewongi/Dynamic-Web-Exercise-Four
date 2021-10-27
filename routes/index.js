@@ -6,4 +6,4 @@ router.get("/", (req, res) => {
   res.send("Hello World in Routes");
 });
 
-module.express = router;
+module.exports = router;
