@@ -5,7 +5,8 @@ const app = express();
 const port = process.env.PORT || 4000;
 // Import Firebase
 const firebase = require("firebase/app");
-// Get confirguration object so we can communicate with Firebase
+
+// Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyB18SRUt_moRX2GURnRU-diPuM68dC44_M",
   authDomain: "exercise-four-28d23.firebaseapp.com",
